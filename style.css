@@ -62,31 +62,23 @@ button  {
   justify-content: center;
   align-items: center;
 }
-
-
 .edit-box {
   background: white;
   padding: 20px;
   width: 350px;
   border-radius: 8px;
 }
-
-
 .edit-box input,
 .edit-box textarea {
-  width: 100%;
+  width: 90%;
   padding: 8px;
   margin-bottom: 10px;
 }
-
-
 .save-btn {
   background: blue;
   color: white;
   padding: 8px 15px;
 }
-
-
 .cancel-btn {
   background: grey;
   color: white;
