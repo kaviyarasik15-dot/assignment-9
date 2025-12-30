@@ -34,6 +34,14 @@ button  {
   padding: 12px;
   padding-right: 15px;
 }
+.add-product-btn{
+  background-color: rgb(150, 245, 150);
+  padding: 10px;
+  padding-right: 25px;
+}
+.btn{
+  padding-left: 20px;
+}
 #searchInput{
   padding: 10px;
   width: 250px;
@@ -43,6 +51,48 @@ button  {
   padding-top: 25px;
   padding-right: 20px;
 }
+.edit-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.edit-box {
+  background: white;
+  padding: 20px;
+  width: 350px;
+  border-radius: 8px;
+}
+
+
+.edit-box input,
+.edit-box textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+
+.save-btn {
+  background: blue;
+  color: white;
+  padding: 8px 15px;
+}
+
+
+.cancel-btn {
+  background: grey;
+  color: white;
+  padding: 8px 15px;
+}
+
 /*media query mobile*/
 @media screen and (max-width:768px) {
    .delete{
